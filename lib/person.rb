@@ -24,4 +24,8 @@ class Person
   def happy?
     self.happiness > 7
   end
+  
+  def clean?
+    self.hygiene > 7
+  end
 end
