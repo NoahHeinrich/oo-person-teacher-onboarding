@@ -20,4 +20,8 @@ class Person
     hygiene = 0 if hygiene < 0
     @hygiene = hygiene
   end
+  
+  def happy?
+    self.happiness > 7
+  end
 end
