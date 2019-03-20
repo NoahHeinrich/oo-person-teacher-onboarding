@@ -14,4 +14,8 @@ class Person
     joy = 0 if joy < 0
     @happiness = joy
   end
+  
+  def hygiene=(hygiene)
+    @hygiene = hygiene
+  end
 end
