@@ -7,4 +7,7 @@ class Person
     @bank_account = 25
     @happiness = 8
   end
+  
+  def happiness=(joy)
+  end
 end
