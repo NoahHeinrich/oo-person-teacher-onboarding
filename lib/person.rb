@@ -9,5 +9,6 @@ class Person
   end
   
   def happiness=(joy)
+    joy = 10 if joy > 10
   end
 end
