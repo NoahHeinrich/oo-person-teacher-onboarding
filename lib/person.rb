@@ -10,6 +10,7 @@ class Person
   
   def happiness=(joy)
     joy = 10 if joy > 10
+    joy = 0 if joy < 0
     @happiness = joy
   end
 end
