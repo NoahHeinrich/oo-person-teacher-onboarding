@@ -33,4 +33,8 @@ class Person
     self.bank_account += salary
     "all about the benjamins"
   end
+  
+  def take_bath
+    self.hygiene += 4
+  end 
 end
