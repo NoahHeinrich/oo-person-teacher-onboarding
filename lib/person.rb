@@ -31,3 +31,4 @@ class Person
   
   def get_paid(salary)
   end
+end
